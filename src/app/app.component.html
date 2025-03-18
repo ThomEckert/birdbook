@@ -1,5 +1,3 @@
-<app-post name="Claus" img="../assets/img/0.jpg" time="vor 5 Minuten" text="Lorem ipsum dolor sit amet"></app-post>
-<app-post name="Claus" img="../assets/img/1.jpg" time="vor 5 Minuten" text="Lorem ipsum dolor sit amet"></app-post>
-<app-post name="Claus" img="../assets/img/2.jpg" time="vor 5 Minuten" text="Lorem ipsum dolor sit amet"></app-post>
-<app-post name="Claus" img="../assets/img/3.jpg" time="vor 5 Minuten" text="Lorem ipsum dolor sit amet"></app-post>
-<app-post name="Claus" img="../assets/img/4.jpg" time="vor 5 Minuten" text="Lorem ipsum dolor sit amet"></app-post>
+@for (post of data; track post.name) {
+    <app-post [img]="post.img" [name]="post.name" [time]="post.time" [text]="post.text"></app-post>
+}

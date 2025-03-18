@@ -1,0 +1,32 @@
+[
+    {
+        "img": "../assets/img/0.jpg",
+        "name": "Claus",
+        "time": "vor 5 Minuten",
+        "text": "Lorem ipsum dolor sit amet"
+    },
+    {
+        "img": "../assets/img/1.jpg",
+        "name": "Claudia",
+        "time": "vor 15 Minuten",
+        "text": "Lorem ipsum dolor sit amet"
+    },
+    {
+        "img": "../assets/img/2.jpg",
+        "name": "Sarah",
+        "time": "vor 47 Minuten",
+        "text": "Lorem ipsum dolor sit amet"
+    },
+    {
+        "img": "../assets/img/3.jpg",
+        "name": "Thorsten",
+        "time": "vor 53 Minuten",
+        "text": "Lorem ipsum dolor sit amet"
+    },
+    {
+        "img": "../assets/img/4.jpg",
+        "name": "Claus",
+        "time": "vor 2 Stunden",
+        "text": "Lorem ipsum dolor sit amet"
+    }
+]
