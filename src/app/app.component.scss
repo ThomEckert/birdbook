@@ -1,0 +1,19 @@
+.card {
+    min-height: 120px;
+    background-color: rgb(18, 29, 54);
+    border-radius: 12px;
+    margin-bottom: 16px;
+    display: flex;
+}
+
+.card-left {
+    width: 20%;
+    background-color: green;
+    min-height: 100%;
+}
+
+.card-right {
+    width: 80%;
+    background-color: red;
+    min-height: 100%;
+}
