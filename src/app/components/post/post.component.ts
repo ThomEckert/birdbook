@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'app-post',
@@ -7,5 +7,8 @@ import { Component } from '@angular/core';
   styleUrl: './post.component.scss'
 })
 export class PostComponent {
-
+  @Input() img: string = '';
+  @Input() name: string = '';
+  @Input() time: string = '';
+  @Input() text: string = '';
 }
